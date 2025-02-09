@@ -48,8 +48,7 @@ const phrases2 = [
 
 function App() {
   const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+
 
   function getNoButtonText() {
     return phrases[noCount];
