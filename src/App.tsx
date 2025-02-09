@@ -3,17 +3,19 @@ import "./App.css";
 //https://media1.tenor.com/m/uDVblF3ewhwAAAAC/you-love-me-do-you-love-me.gif
 const phrases = [
   "ถามเล้ยยย",
+  "ช่ายย",
   "Yes",
   "กดเร็วๆ เขินนน 😳😳",
-  "น้าาาาาาาา",
-  "แต่เค้ารักเบบี๋นะะะะะะะะ",
-  "แต่เค้ารักเบบี๋มากๆๆนะะะแน่ใจหรอ?",
+  "🥺🥺🥺🥺🥺",
+  "😊😊😊😊😊",
+  "ลูบหัวๆนะคับ",
   "ไม่รักกันแล้วหรอ",
   "เบบี่หักอกเค้า:(",
 ];
 
 const phrases3 = [
   "ม่ายเอาม่ายถามม",
+  "หรออ",
   "No",
   "แน่ใจนะะะ?",
   "น้าาาาาาาา",
@@ -25,24 +27,26 @@ const phrases3 = [
 
 const phrases1 = [
   "Hi kubb มีอะไรจะถามคับบ",
+  "ช่วงนี้ใกล้ Valentine day แล้วว",
   "Will you be my valentine ?",
   "เย้ๆๆๆ น่ารักกมากกก",
-  "เค้ารู้นะว่าช่วงนี้เทอเครียด เหนื่อยแล้วก็ท้อ พยายามเข้านะคับ",
+  "เค้ารู้นะว่าช่วงนี้เทอเครียด เหนื่อยแล้วก็ท้อมาก พยายามเข้านะคับ",
   "ถ้าเทอไม่ไหว ทักหรือโทรมาหาเค้าได้เลย เค้าจะเป็นกำลังให้เทอเอง",
   "Big hug kub babe.",
-  "ไม่รักกันแล้วหรอ😭",
-  "เบบี่หักอกเค้า:(",
+  "Happy valentine ล่วงหน้า \n หวังว่าเทอจะชอบของที่ให้นะคับเบบี๋ @2nsstyleStore",
+  "หวังว่าเทอจะชอบของที่ให้นะคับเบบี๋",
 ];
 
 const phrases2 = [
-  "https://img2.pic.in.th/pic/lady-and-the-tramp-awkward.gif",
-  "https://media1.tenor.com/m/uDVblF3ewhwAAAAC/you-love-me-do-you-love-me.gif",
-  "https://media.tenor.com/bW1bXBAxDr0AAAAi/tkthao219-bubududu.gif",
-  "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnJncnZqN3lzbTF0ankyMWJqYTc5Z29nOWhlbWpwMmJqZGZscjg0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adXjldOSB3b5C/giphy.gif",
-  "https://i.ytimg.com/vi/5J2-WG-fXXU/maxresdefault.jpg",
-  "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHRhbm5ibThjc3U2anpldWxzcGZ2MndqbnQ2cXpvNjJpYXEyZDF4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OvpA7YvA9INE7bgGOy/giphy.gif",
-  "https://img2.pic.in.th/pic/lady-and-the-tramp-awkward.gif",
-
+  "src/assets/lady-and-the-tramp-awkward.gif",
+  "src/assets/giphy.webp",
+  "src/assets/tenor.gif",
+  "src/assets/tkthao219-bubududu.gif",
+  "src/assets/giphy.gif",
+  "src/assets/giphy (1).gif",
+  "src/assets/maxresdefault.jpg",
+  "src/assets/63D094RLUNExa.webp",
+  "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNThkbjcwM213emFsbXpsZW03d2EwdXo3YWJkZTA4OGw1a2RkMWV6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/63D094RLUNExa/giphy.gif",
 ];
 
 
@@ -66,50 +70,34 @@ function App() {
 
   return (
     <div className="val-container">
-      {" "}
-      {noCount > 1 ? (
+      {noCount > 6 ? (
         <>
-           <img className="fiw"
-            src={getNoButtonText2()} 
-            alt="bear-asking"
-          />
-          <div className="val-text"> {getNoButtonText1()}</div>
-
-            <button
-              onClick={() => setNoCount(noCount + 1)}
-              className="button yes-button"
-            >
-              {getNoButtonText()}
-            </button>
+          <img className="fiw" src={getNoButtonText2()} alt="bear-asking" />
+          <div className="val-text">{getNoButtonText1()}</div>
+        </>
+      ) : noCount > 2 ? (
+        <>
+          <img className="fiw" src={getNoButtonText2()} alt="bear-asking" />
+          <div className="val-text">{getNoButtonText1()}</div>
+          <button onClick={() => setNoCount(noCount + 1)} className="button yes-button">
+            {getNoButtonText()}
+          </button>
         </>
       ) : (
         <>
-        
-          <img className="fiw"
-            src={getNoButtonText2()} 
-            alt="bear-asking"
-          />
-          <div className="val-text"> {getNoButtonText1()}</div>
+          <img className="fiw" src={getNoButtonText2()} alt="bear-asking" />
+          <div className="val-text">{getNoButtonText1()}</div>
           <div>
-
-            <button
-              onClick={() => setNoCount(noCount + 1)}
-              className="button yes-button"
-            >
+            <button onClick={() => setNoCount(noCount + 1)} className="button yes-button">
               {getNoButtonText()}
             </button>
-
-
-            <button
-              className="button no-button"
-              onClick={() => alert("ระบบปิดปรับปรุง กรุณากดปุ่มอื่น")}
-            >
+            <button className="button no-button" onClick={() => alert("ระบบปิดปรับปรุง กรุณากดปุ่มอื่น")}>
               {phrases3[noCount]}
             </button>
           </div>
         </>
       )}
     </div>
-  );
+  );  
 }
 export default App;
