@@ -38,14 +38,14 @@ const phrases1 = [
 ];
 
 const phrases2 = [
-  "src/assets/lady-and-the-tramp-awkward.gif",
-  "src/assets/giphy.webp",
-  "src/assets/tenor.gif",
-  "src/assets/tkthao219-bubududu.gif",
-  "src/assets/giphy.gif",
-  "src/assets/giphy (1).gif",
-  "src/assets/maxresdefault.jpg",
-  "src/assets/63D094RLUNExa.webp",
+  "https://img2.pic.in.th/pic/lady-and-the-tramp-awkward81adb2ad3ac58c7c.gif",
+  "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWZnN2ZpenlhdnE0eGM2MW1najh0and5NWlhY240cWU5eHBib2N5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GYAiZdntWJE1zyNOLp/giphy.gif",
+  "https://media1.tenor.com/m/uDVblF3ewhwAAAAC/you-love-me-do-you-love-me.gif",
+  "https://media.tenor.com/bW1bXBAxDr0AAAAi/tkthao219-bubududu.gif",
+  "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnJncnZqN3lzbTF0ankyMWJqYTc5Z29nOWhlbWpwMmJqZGZscjg0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adXjldOSB3b5C/giphy.gif",
+  "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnM5anFmZGJxcmVyYjFhNzM0OHVtazl1Y3cwYzN1bnVjc2N0Z2dvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bThVImNJTXXoc/giphy.gif",
+  "https://i.ytimg.com/vi/5J2-WG-fXXU/maxresdefault.jpg",
+  "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHFyejByNXllZnFrdzhtejkxdWMwaDNrcjk4ZzI4azV6NGxkMHE2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/63D094RLUNExa/giphy.gif",
   "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNThkbjcwM213emFsbXpsZW03d2EwdXo3YWJkZTA4OGw1a2RkMWV6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/63D094RLUNExa/giphy.gif",
 ];
 
