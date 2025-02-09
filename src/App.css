@@ -47,3 +47,7 @@
   color: #333; /* เปลี่ยนสี */
   font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์ */
 }
+.fiw{
+  height: 500px;
+  width: auto;
+}
