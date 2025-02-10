@@ -9,7 +9,7 @@ const phrases = [
   "🥺🥺🥺🥺🥺",
   "😊😊😊😊😊",
   "ลูบหัวๆนะคับ",
-  "ไม่รักกันแล้วหรอ",
+  "Gift",
   "เบบี่หักอกเค้า:(",
 ];
 
@@ -33,8 +33,8 @@ const phrases1 = [
   "เค้ารู้นะว่าช่วงนี้เทอเครียด เหนื่อยแล้วก็ท้อมาก พยายามเข้านะคับ",
   "ถ้าเทอไม่ไหว ทักหรือโทรมาหาเค้าได้เลย เค้าจะเป็นกำลังให้เทอเอง",
   "Big hug kub babe.",
-  "Happy valentine ล่วงหน้า \n หวังว่าเทอจะชอบของที่ให้นะคับเบบี๋ @2nsstyleStore",
-  "หวังว่าเทอจะชอบของที่ให้นะคับเบบี๋",
+  "Happy valentine ล่วงหน้า \n หวังว่าเทอจะชอบของที่ให้นะคับเบบี๋",
+  "@2nsstyleStore",
 ];
 
 const phrases2 = [
@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="val-container">
-      {noCount > 6 ? (
+      {noCount > 7 ? (
         <>
           <img className="fiw" src={getNoButtonText2()} alt="bear-asking" />
           <div className="val-text">{getNoButtonText1()}</div>
